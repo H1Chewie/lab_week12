@@ -1,7 +1,11 @@
+//part 2
 function selectElem(selectedElement) {
     const elementSelected = document.querySelector(selectedElement);
     console.log(elementSelected);
 }
+
+//part 3
+
 const students = [
     { name: "Tasha", grades: [ 80, 67, 75, 62 ] },
     { name: "Tuvok", grades: [ 90, 88, 91, 92 ] },
@@ -38,3 +42,10 @@ function main() {
 }
 main()
 console.log(studentsScholarship)
+
+//part 4
+
+function darkMode() {
+    const darkTheme = document.querySelector(".light-theme");
+    darkTheme.classList.replace("light-theme","dark-theme")
+}
